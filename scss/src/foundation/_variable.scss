@@ -17,8 +17,11 @@
  * Font weights     - font weights
  * Heading sizes    - font sizes for  page headings
  *
- *Breakpoints
+ *BREAKPOINTS
  *Breakpoints       - Breakpoints for responsive design
+ * 
+ *SPACING
+ *Spacing           - global fixed set of spacing variables;
 
  */
 
@@ -112,3 +115,27 @@ $breakpoints: (
 );
 
 /*=====  End of Breakpoints  ======*/
+
+/*=============================================
+=                  Spacing                    =
+=============================================*/
+$spacing: (
+  xxxs: 0.25rem,
+  // 4px
+  xxs: 0.5rem,
+  // 8px
+  xs: 0.75rem,
+  // 12px
+  sm: 1rem,
+  // 16px
+  md: 1.5rem,
+  // 24px
+  lg: 2rem,
+  // 32px
+  xl: 2.5rem,
+  // 40px
+  xxl: 3rem,
+  // 48px
+  xxxl: 4rem,
+  // 64px
+) !default;
